@@ -205,13 +205,15 @@ nav ul li {
     overflow: hidden;
     background-color: #100024;
     bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
     background-color: inherit;
     color: white;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
